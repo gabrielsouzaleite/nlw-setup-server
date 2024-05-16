@@ -170,8 +170,8 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "monospace",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.addMissingImports": true
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
   },
   "eslint.validate": [
     "javascript",
@@ -205,7 +205,6 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.editor.untitled.hint": "hidden",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "liveServer.settings.donotShowInfoMsg": true,
   "[json]": {
@@ -213,4 +212,5 @@
   },
   "window.commandCenter": true,
   "git.openRepositoryInParentFolders": "always",
+  "workbench.editor.empty.hint": "hidden",
 }
